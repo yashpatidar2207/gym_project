@@ -1,0 +1,52 @@
+    <%- include("partials/header.ejs") %>
+      <div class="container">
+        <h1>Join Our Gym Now</h1>
+        <form action="/submit" method="POST">
+          <div class="form">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter your Name"
+              required
+            />
+          </div>
+          <div class="form">
+            <input
+              type="Number"
+              name="age"
+              placeholder="Enter your Age"
+              required
+            />
+          </div>
+          <div class="form">
+            <input
+              type="text"
+              name="gender"
+              placeholder="Enter your Gender"
+              required
+            />
+          </div>
+          <div class="form">
+            <input
+              type="Number"
+              name="weight"
+              placeholder="Enter your Weight"
+              required
+            />
+          </div>
+          <div class="form">
+            <input
+              type="text"
+              name="address"
+              placeholder="Enter your Address"
+              required
+            />
+          </div>
+          <br />
+          <button class="btn" type="submit" value="Submit">Submit</button>
+          <button class="btn" type="cancle" value="cancle">Cancle</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

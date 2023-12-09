@@ -1,0 +1,111 @@
+body {
+  background: url("/images/backgrounds.jpg") ;
+  margin: auto;
+  width: 99%;
+}
+
+body {
+  color: aliceblue;
+}
+
+.header {
+  display: inline block;
+}
+
+#one {
+  position: absolute;
+  top: 15px;
+  left: 51px;
+  font-family: "Rubik Gemstones", cursive;
+}
+
+#two {
+  text-align: center;
+  width: 56%;
+  margin: 33px auto;
+}
+
+#three {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 35px;
+  font-family: "Rubik Gemstones", cursive;
+}
+
+ul li a:hover,
+ul li a.active {
+  color: rgb(186, 186, 186);
+  text-decoration: underline;
+}
+
+#one img {
+  width: 90px;
+  filter: invert(100%);
+}
+
+#one div {
+  text-align: center;
+  font-size: 15px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  border-color: white;
+  font-size: 18px;
+  font-family: "Rubik Gemstones", cursive;
+  cursor: pointer;
+  margin: 15px 6px;
+  padding: 6px 9px;
+}
+
+.btn:hover {
+  background-color: rgb(50, 49, 49);
+}
+
+.container {
+  border: 3px solid;
+  border-radius: 10px;
+  margin: 80px 50px;
+  width: 41%;
+  padding-top: 12px;
+  padding-bottom: 30px;
+  display: inline-block;
+}
+
+.container h1,
+.container form {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container form {
+  text-align: center;
+}
+
+.container form input {
+  text-align: center;
+  width: 50%;
+  margin: 5px auto;
+  font-size: 20px;
+  border: 0px solid;
+  border-radius: 9px;
+  font-family: "Ubuntu", sans-serif;
+}
+.container button {
+  width: 50%;
+  margin: 5px auto;
+  border-radius: 9px;
+}
